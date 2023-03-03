@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Responsive Side Navigation Bar</title>
+	<link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" 
+    crossorigin="anonymous">
+	<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<!-- <script>
+		$(document).ready(function(){
+			$(".hamburger").click(function(){
+			   $(".wrapper").toggleClass("collapse");
+			});
+		});
+	</script> -->
+</head>
+<body>
+
+<div class="wrapper">
+  <div class="top_navbar">
+    <div class="hamburger">
+       <div class="one"></div>
+       <div class="two"></div>
+       <div class="three"></div>
+    </div>
+    <div class="top_menu">
+      <div class="logo">logo</div>
+      <ul>
+        <li><a href="#">
+          <i class="fas fa-search"></i></a></li>
+        <li><a href="#">
+          <i class="fas fa-bell"></i>
+          </a></li>
+        <li><a href="#">
+          <i class="fas fa-user"></i>
+          </a></li>
+      </ul>
+    </div>
+  </div> <br>
+  
+  <div class="sidebar">
+      <ul>
+        <img src="Assets/pass3.jpg">
+        <li><a href="#">
+          <span class="icon"><i class="fas fa-book"></i></span>
+          <span class="title">ACTIVITIES</span></a></li>
+          <select onchange="location = this.value;">
+            
+            <option value="comedy.html">Comedy</option>
+            <option value="singing.html">Singing</option>
+           
+           </select><br><br><br><br>
+          
+        <li><a href="event1.html">
+          <span class="icon"><i class="fas fa-file-video"></i></span>
+          <span class="title">EVENTS</span>
+          </a></li>
+        <li><a href="members1.html">
+          <span class="icon"><i class="fas fa-volleyball-ball"></i></span>
+          <span class="title">MEMBERS</span>
+          </a></li>
+       
+    </ul>
+  </div>
+  
+  <div class="main_container">
+    <header style="text-align: center; margin-left: 30%; margin-right: 30%;">
+        <h1>Our Events</h1>
+                <p>It's true that a lot of the best known creative events have yet to announce
+                     they're actually happening, and that should surprise no one. But there are
+                      still plenty of confirmed dates to get excited about around the world, and
+                       we've listed the best of them below.
+
+                    
+                    
+                    </p>
+                </header>
+
+    <form>
+        <div class="row">
+            <div class="col-md-4" style="margin-left: 10%;">
+              <img src="Assets/wall.jpeg">
+            </div>
+            <div class="col-md-6"><br><br><br>
+                <marquee><p style="text-align: center; font-size: 30px;
+                 color: blue;">WE ARE HERE TO MAKE YOU HAPPY <br>
+                 <img src="Assets/laughing (2).png"></p></marquee>
+            </div>
+        </div>
+
+    </form><br><br>
+
+    <div class="row" style="margin-left: 5%; margin-right: 5%;">
+        <div class="col-md-3">
+            
+            <img src="Assets/dance.jpeg" 
+            style="width: 150px; height: 110px; border-radius: 25%; margin-left: 30%;">
+            <div class="set" style="text-align: center;">
+            <h4>Dancing</h4>
+            <h4>Wasaka Group</h4>
+            <h5>Host:Mombasa</h5>
+            <p>Everyone is welcome</p>
+            <button type="button" class="btn btn-sm btn-success" data-toggle="modal">Book Now</button>
+             </div>
+            
+        </div>
+        <div class="col-md-3">
+            
+            <img src="Assets/drawing.jpeg"  
+            style="width: 150px; height: 100px; border-radius: 25%; margin-left: 30%;">
+            <div class="set" style="text-align: center;">
+            <h4>Drawing</h4>
+            <h4>Msenos Drawers</h4>
+            <h5>Host:Mombasa</h5>
+            <p>Student Only</p>
+            <button type="button" class="btn btn-sm btn-success" data-toggle="modal">Book Now</button>
+             </div>
+            
+        </div>
+        <div class="col-md-3">
+            
+            <img src="Assets/beachwalk.jpeg" 
+            style="width: 150px; height: 100px; border-radius: 25%; margin-left: 30%;">
+            <div class="set" style="text-align: center;">
+            <h4>Nature Walk</h4>
+            <h4>Serenas Walkie</h4>
+            <h5>Host:Serena Hotel Beach</h5>
+            <p>Exercise Doing</p>
+            <button type="button" class="btn btn-sm btn-success" data-toggle="modal">Book Now</button>
+             </div>
+            
+        </div>
+        <div class="col-md-3">
+            
+            <img src="Assets/acting.jpeg"
+            style="width: 150px; height: 100px; border-radius: 25%; margin-left: 30%;">
+            <div class="set" style="text-align: center;">
+            <h4>Acting</h4>
+            <h4>Changers Actors</h4>
+            <h5>Host:Mombasa, Swahilipot</h5>
+            <p>Everyone Welcome</p>
+            <button type="button" class="btn btn-sm btn-success" data-toggle="modal">Book Now</button>
+             </div>
+            
+        </div>
+    </div>
+   
+
+
+          
+        
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" 
+    crossorigin="anonymous"></script> 
+</div>
+	
+</body>
+</html>
